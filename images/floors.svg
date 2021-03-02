@@ -1,0 +1,44 @@
+<svg id="floors" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="background-clip" width="1600" height="800" fill="none"/>
+    </clipPath>
+  </defs>
+  <title>floors</title>
+  <g id="background">
+    <g clip-path="url(#clip-path)">
+      <image id="background-image" width="1920" height="1080" xlink:href="../ТЗ Дизайнеру/Визуализация низкое разрешение/22.jpg"/>
+    </g>
+  </g>
+  <g id="help-text">
+    <text transform="translate(276.11 40.11)" font-size="24" fill="#313f47" font-family="FiraSans-Book, Fira Sans">н<tspan x="14.21" y="0" letter-spacing="-0.01em">а</tspan><tspan x="26.98" y="0" letter-spacing="0em">тисніть, щоб пере</tspan><tspan x="227.3" y="0" letter-spacing="-0.03em">г</tspan><tspan x="236.85" y="0" letter-spacing="0em">лянути плану</tspan><tspan x="387.98" y="0" letter-spacing="-0.01em">в</tspan><tspan x="401.32" y="0">ання апа</tspan><tspan x="502.5" y="0" letter-spacing="-0.01em">р</tspan><tspan x="516.45" y="0" letter-spacing="0em">та</tspan><tspan x="540.18" y="0" letter-spacing="-0.01em">м</tspan><tspan x="555.98" y="0">ентів на відповідн</tspan><tspan x="763.57" y="0" letter-spacing="-0.01em">о</tspan><tspan x="777.28" y="0">му по</tspan><tspan x="839.48" y="0" letter-spacing="-0.01em">в</tspan><tspan x="852.83" y="0">ерсі</tspan></text>
+    <path id="small-arrow" d="M220.93,75.45l6.74-9.54a1.45,1.45,0,0,0-.57-2.12,1.85,1.85,0,0,0-2.38.45l-4.28,6a38.21,38.21,0,0,1,1.45-12c4.42-16.46,20.33-27,35.47-23.49a1.71,1.71,0,0,0,2.08-1.09,1.47,1.47,0,0,0,0-.24,1.61,1.61,0,0,0-1.33-1.63c-17-3.92-34.77,7.58-39.62,25.62A40.65,40.65,0,0,0,217,69.73l-4.44-4.56a1.9,1.9,0,0,0-2.44-.19,1.4,1.4,0,0,0-.16,2.16l8.23,8.46.06,0a1.79,1.79,0,0,0,.45.31l0,0a1.89,1.89,0,0,0,.49.15h.25a1.84,1.84,0,0,0,.44,0l.17,0a1.72,1.72,0,0,0,.52-.25h0A1.61,1.61,0,0,0,220.93,75.45Z" fill="#78909c"/>
+  </g>
+  <g id="floor-hover">
+    <polyline id="hover-0" points="420 508 420 651 1027 620 1027 558" fill="#fbcc34" opacity="0.4"/>
+    <polyline id="hover-1" points="420 420 420 508 1027 558 1027 508" fill="#fbcc34" opacity="0.4"/>
+    <polyline id="hover-2" points="420 332 420 420 1027 508 1027 460" fill="#fbcc34" opacity="0.4"/>
+    <polyline id="hover-3" points="420 245 420 332 1027 460 1027 411" fill="#fbcc34" opacity="0.4"/>
+    <polyline id="hover-4" points="420 159 1027 363 1027 411 420 245 420 159" fill="#fbcc34" opacity="0.4"/>
+  </g>
+  <g id="arrow-0" opacity="0.85">
+    <polygon id="arrow-body" points="402 556 162 556 162 604 402 604 420 580 402 556" fill="#fbcc34"/>
+    <text transform="translate(178.6 587.11)" font-size="24" fill="#263238" font-family="FiraSans-Regular, Fira Sans">цо<tspan x="28.66" y="0" letter-spacing="-0.01em">ко</tspan><tspan x="54.65" y="0">льний по</tspan><tspan x="158.42" y="0" letter-spacing="-0.01em">в</tspan><tspan x="171.84" y="0" letter-spacing="0em">е</tspan><tspan x="185.04" y="0" letter-spacing="-0.02em">р</tspan><tspan x="198.81" y="0" letter-spacing="0em">х</tspan></text>
+  </g>
+  <g id="arrow-1" opacity="0.85">
+    <polygon id="arrow-body-2" data-name="arrow-body" points="402 448 162 448 162 496 402 496 420 472 402 448" fill="#fbcc34"/>
+    <text transform="translate(215.6 479.11)" font-size="24" fill="#263238" font-family="FiraSans-Regular, Fira Sans">1-ий по<tspan x="83.4" y="0" letter-spacing="0em">в</tspan><tspan x="96.82" y="0">е</tspan><tspan x="110.02" y="0" letter-spacing="-0.02em">р</tspan><tspan x="123.79" y="0">х</tspan></text>
+  </g>
+  <g id="arrow-2" opacity="0.85">
+    <polygon id="arrow-body-3" data-name="arrow-body" points="402 358 162 358 162 406 402 406 420 382 402 358" fill="#fbcc34"/>
+    <text transform="translate(215.6 389.11)" font-size="24" fill="#263238" font-family="FiraSans-Regular, Fira Sans">2-ий по<tspan x="84.89" y="0" letter-spacing="0em">в</tspan><tspan x="98.3" y="0" letter-spacing="0em">е</tspan><tspan x="111.5" y="0" letter-spacing="-0.02em">р</tspan><tspan x="125.28" y="0" letter-spacing="0em">х</tspan></text>
+  </g>
+  <g id="arrow-3" opacity="0.85">
+    <polygon id="arrow-body-4" data-name="arrow-body" points="402 268 162 268 162 316 402 316 420 292 402 268" fill="#fbcc34"/>
+    <text transform="translate(219.6 299.11)" font-size="24" fill="#263238" font-family="FiraSans-Regular, Fira Sans">3-ій по<tspan x="77.35" y="0" letter-spacing="0em">в</tspan><tspan x="90.77" y="0">е</tspan><tspan x="103.97" y="0" letter-spacing="-0.02em">р</tspan><tspan x="117.74" y="0">х</tspan></text>
+  </g>
+  <g id="arrow-4" opacity="0.85">
+    <polygon id="arrow-body-5" data-name="arrow-body" points="402 178 162 178 162 226 402 226 420 202 402 178" fill="#fbcc34"/>
+    <text transform="translate(215.6 209.11)" font-size="24" fill="#263238" font-family="FiraSans-Regular, Fira Sans">4-ий по<tspan x="85.78" y="0" letter-spacing="0em">в</tspan><tspan x="99.19" y="0">е</tspan><tspan x="112.39" y="0" letter-spacing="-0.02em">р</tspan><tspan x="126.17" y="0">х</tspan></text>
+  </g>
+</svg>

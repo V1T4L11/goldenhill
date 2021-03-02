@@ -1,0 +1,41 @@
+$base-fosz: 20px;
+$fosz-18: $base-fosz * .9;
+$fosz-24: $base-fosz * 1.2;
+$fosz-30: $base-fosz * 1.5;
+
+// breakpoints
+$bp_xs:	479px;
+$bp_sm:	576px;
+$bp_md:	768px;
+$bp_lg:	992px;
+$bp_xl:	1280px;
+
+$pd_md: 80px;
+$pd_lg: 80px;
+$pd_xl: 100px;
+
+$nav_pd: 20px;
+
+$container-xs: 98%;
+$container-sm: 96%;
+$container-md: ( $bp_md - ( $pd_md * 2 ));
+$container-lg: ( $bp_lg - ( $pd_lg * 2 ));
+$container-xl: ( $bp_xl - ( $pd_xl * 2 ));
+
+$nav-xs: 98%;
+$nav-sm: 96%;
+$nav-md: ( $bp_md - ( $nav_pd * 2 ));
+$nav-lg: ( $bp_lg - ( $nav_pd * 2 ));
+$nav-xl: ( $bp_xl - ( $nav_pd * 2 ));
+
+$nav-height:		60px;
+$nav-height-sm:	40px;
+$logo-size: 80px;
+$nav-svg-size: 36px;
+
+$section-padding: 70px;
+
+$gallery-item-height: 160px;
+
+$scroll-up-size: 65px;
+$scroll-up-size-sm: 50px;

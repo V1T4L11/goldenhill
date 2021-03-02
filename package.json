@@ -1,0 +1,21 @@
+{
+  "name": "granit",
+  "version": "1.0.0",
+  "description": "goldenhill.com.ua frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://valera_osadchuk@bitbucket.org/valera_osadchuk/goldenhill.com.ua.git"
+  },
+  "author": "valerio",
+  "license": "ISC",
+  "homepage": "https://valera_osadchuk@bitbucket.org/valera_osadchuk/goldenhill.com.ua.git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

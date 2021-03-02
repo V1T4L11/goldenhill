@@ -1,0 +1,134 @@
+/* Changing Susy default global settings */
+$susy: (
+  columns: 12,
+  container: auto,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+.wrap {
+	@include container;
+}
+
+.main-nav,
+.jumbotron,
+.main-content,
+.main-footer {
+	width: 100%;
+}
+
+.has-padding,
+.main-header--inner,
+.section--header,
+// .main-content--inner,
+.main-footer--inner {
+	@include container($container-xs);
+	@include breakpoint($bp_sm) {
+    @include container($container-sm);
+  }
+	@include breakpoint($bp_md) {
+    @include container($container-md);
+  }
+	@include breakpoint($bp_lg) {
+    @include container($container-lg);
+  }
+	@include breakpoint($bp_xl) {
+    @include container($container-xl);
+  }
+}
+.main-nav--inner {
+	@include container($nav-xs);
+	@include breakpoint($bp_sm) {
+    @include container($nav-sm);
+  }
+	@include breakpoint($bp_md) {
+    @include container($nav-md);
+  }
+	@include breakpoint($bp_lg) {
+    @include container($nav-lg);
+  }
+	@include breakpoint($bp_xl) {
+    @include container($nav-xl);
+  }
+}
+
+.main-nav--logo {
+	@include span(4);
+	@include breakpoint($bp_md) {
+    @include span(5);
+  }
+}
+.main-nav--socials {
+	@include span(4);
+	@include breakpoint($bp_md) {
+    @include span(2);
+  }
+}
+.main-nav--menu {
+	@include span(4 last);
+	@include breakpoint($bp_md) {
+    @include span(5 last);
+  }
+}
+
+.main-nav {
+	height: $nav-height;
+}
+
+.appartments {
+  &--description {
+    @include span(12);
+    @include breakpoint($bp_md) {
+      @include span(6);
+    }
+    &:nth-child(even) {
+      @include breakpoint($bp_md) {
+        @include last;
+      }
+    }
+  }
+}
+
+.contacts--contacts {
+	@include span(12);
+	@include breakpoint($bp_lg) {
+    @include span(5);
+  }
+}
+.contacts--map {
+	@include span(12);
+	@include breakpoint($bp_lg) {
+    @include span(7 last);
+  }
+}
+
+.progress--videos {
+  @include container();
+  .video-item {
+    @include span(12);
+    @include breakpoint($bp_sm) {
+      @include span(6);
+    }
+    &:nth-child(even) {
+      @include breakpoint($bp_sm) {
+        @include last;
+      }
+    }
+  }
+}
+
+.main-footer {
+  &--socials,
+  &--copyright {
+    @include span(12);
+    @include breakpoint($bp_sm) {
+      @include span(6);
+    }
+  }
+  &--socials {
+    @include breakpoint($bp_sm) {
+      @include last;
+    }
+  }
+}

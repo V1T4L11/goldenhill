@@ -1,0 +1,44 @@
+/***************************************************/
+/*** Don't Use This File To Add Custom Styles!!! ***/
+/************** Use Instead patch.css **************/
+/***************************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600&subset=cyrillic');
+
+@import "../../bower_components/susy/sass/susy";
+@import "../../bower_components/breakpoint-sass/stylesheets/breakpoint";
+
+@import 'normalize';
+@import 'palette';
+@import 'vars';
+@import 'grid';
+@import 'colors';
+@import 'mixins';
+@import 'components';
+@import 'fullscreenmenu';
+@import 'breakpoints';
+
+// @import "../../bower_components/magnific-popup/dist/magnific-popup.css";
+// @import '../../bower_components/remodal/dist/remodal.css';
+// @import '../../bower_components/remodal/dist/remodal-default-theme.css';
+
+
+body {
+	@include font-family;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.4;
+	color: $text-color;
+	box-sizing: border-box;
+	background-image: url(../images/body-texture.png);
+	background-attachment: fixed;
+	@include breakpoint(768px) {
+    font-size: $base-fosz;
+  }
+	& * {
+		box-sizing: border-box;
+	}
+	a {
+		color: $link-color;
+	}
+}

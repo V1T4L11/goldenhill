@@ -1,0 +1,16 @@
+$base-fosz: 18px;
+
+$bp_sm:		"only screen and (min-width: 576px)";
+$bp_md:		"only screen and (min-width: 768px)";
+$bp_lg:		"only screen and (min-width: 992px)";
+$bp_xl:		"only screen and (min-width: 1200px)";
+
+// HOW TO USE
+@media #{$bp_sm} {
+}
+@media #{$bp_md} {
+}
+@media #{$bp_lg} {
+}
+@media #{$bp_xl} {
+}
